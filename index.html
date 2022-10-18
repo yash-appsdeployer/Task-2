@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h2>Survey Form-AppsDeployer</h2>
+        </div>
+        <form action="#">
+            <div class="user-detail">
+                <div class="input-bx">
+                    <span class="main-details">Full Name</span>
+                    <input type="text" name="name" placeholder="Enter Your Name">
+                </div>
+
+                <div class="input-bx">
+                    <span class="main-details">Email</span>
+                    <input type="email" name="email" placeholder="Enter Your Email">
+                </div>
+                <div class="input-bx">
+                    <span class="main-details">Contact</span>
+                    <input type="number" name="number" placeholder="Enter Your Number">
+                </div>
+                <div class="input-bx">
+                    <span class="main-details">Age</span>
+                    <input type="number" name="age" placeholder="Enter Your Age">
+                </div>
+
+                <div class="input-bx">
+                    <span class="main-details" for="browser">Job </span>
+                    <input list="browsers" name="browser" placeholder="Specified Role">
+                    <datalist id="browsers">
+                        <option value="Full Stack Developer">
+                        <option value="Frond End Developer">
+                        <option value="Backend End Developer">
+                        <option value="Android Developer">
+                        <option value="Block Chain Developer">
+                    </datalist>
+                </div>
+
+
+                <div class="input-bx">
+                    <span class="main-details" for="location">Location</span>
+                    <input list="locations" name="browser" placeholder="Specified Location">
+                    <datalist id="locations">
+                        <option value="Indore">
+                        <option value="Bhopal">
+                        <option value="Bangalore">
+                        <option value="Delhi">
+                        <option value="Mumbai">
+                        <option value="Hyderabad">
+                    </datalist>
+                </div>
+
+                <div class="gender-details">
+                    <span class="gender-title">Gender</span>
+                    <div class="category">
+                        <label for="">
+                            <span class="dot first"></span>
+                            <input type="radio" class="gender" name="gender" value="male" >Male</input>
+                        </label>
+                        <label for="">
+                            <span class="dot second"></span>
+                            <input type="radio" class="gender" name="gender" value="female" >Female</input>
+                        </label>
+                        <label for="">
+                            <span class="dot third"></span>
+                            <input type="radio" class="gender" name="gender" value="other">Prefer not to say </input>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="button">
+                    <input type="submit" value="Submit">
+                </div>
+
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

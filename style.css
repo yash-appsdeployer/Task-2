@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    /* background-image: linear-gradient(135deg, rgb(31, 211, 239), rgba(163, 35, 192, 0.995)); */
+    background-image: url("https://wallpapercave.com/wp/wp7153325.jpg");
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 700px;
+    width: 100%;
+    padding: 20px 30px;
+    margin: 30px 0 30px 0;
+    display: inline-block;
+    align-items: center;
+    /* Glassmorphism */
+    background: rgba(255, 255, 255, 0.486);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.276);
+    backdrop-filter: blur(5.9px);
+    -webkit-backdrop-filter: blur(5.9px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.container .title {
+    font-size: 23px;
+    color: rgb(53, 53, 53);
+}
+
+
+.container .user-detail .input-bx {
+    margin: 15px 0 12px 0;
+    width: calc(100%/2 -20px);
+}
+
+.user-details .input-bx .main-details {
+    font-weight: 500;
+    margin-bottom: 50px;
+    font-size: 30px;
+   
+}
+span{
+    display:inline-block;
+    width: 100%;
+}
+
+.main-details {
+    font-size: 20px;
+}
+
+.user-detail .input-bx input {
+    height: 45px;
+    width: 80%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding-left: 15px;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.703);
+    transition: all 0.3s ease-in-out;
+}
+
+.user-detail .input-bx .job-details {
+    height: 45px;
+    width: 50%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-left: 3px;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+form .gender-details .gender-title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+form .gender-details .category {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+form .gender-details .gender {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+form .button {
+    height: 45px;
+    width: 45px 0;
+}
+
+form .button input {
+    height: 100%;
+    width: 100%;
+     background: rgb(39, 39, 39);
+     color: white;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 4px 30px rgba(52, 52, 52, 0.276);
+    backdrop-filter: blur(5.9px);
+    -webkit-backdrop-filter: blur(5.9px);
+}
+
+form .button input:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.614);
+    backdrop-filter: blur(5.9px);
+    font-size:20.5px;
+    transition: all .2s ease-out;
+    -webkit-backdrop-filter: blur(5.9px);
+}
